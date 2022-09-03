@@ -50,4 +50,21 @@ Updates an instance based on the class name and id by adding or updating attribu
    $ update BaseModel 1234-1234-1234 email "aibnb@holbertonschool.com"
 ```
 #### quit:
+quit the Shell
+## Running Tests
 
+This project uses the python unittest model for automated tests. Unittests for the AirBnB_clone project are defined in the tests folder. To run the entire test suite simultaneously, execute the following command:
+
+```bash
+  $ python3 unittest -m discover tests
+```
+You can specify a single test file to run at a time:
+
+```bash
+python3 -m unittest tests/tespytestt_models/test_base_model.py
+```
+
+## Authors
+
+- [@kech38](https://github.com/Kech38) - Nkechi Asuai
+- [@Beardgod7](https://github.com/Beardgod7) - Nwaoke Francis
