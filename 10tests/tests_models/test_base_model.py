@@ -9,6 +9,7 @@ Unittest classes:
 import os
 import models
 import unittest
+from uuid import uuid4
 from datetime import datetime
 from time import sleep
 from models.base_model import BaseModel
